@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="../CSS/register.css">
+</head>
+
+<body>
+    <form action="" class="frm-1" id="registration-form">
+        <h1 class="title">Register yourself here!</h1>
+        <label for="name">Full Name:</label>
+        <input type="text" name="fname" id="fname" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required>
+        <div class="gender">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+        </div>
+        <label for="hobby">Hobby:</label>
+        <div id="hobby-container">
+            <input type="text" class="hobby-input">
+        </div>
+        <button type="button" id="add-hobby" class="add-hobby">Add more hobbies</button>
+        <button type="submit" id="register" class="submit-btn">Register</button>
+        <button type="reset" id="reset" class="reset-btn">Reset</button>
+    </form>
+    
+    <script src="../JS/script.js">
+
+    </script>
+</body>
+
+</html>
